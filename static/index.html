@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>Sending data to and from the server</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	</head>
+
+	<body>
+		<div>
+			<h4 id="log1"></h4>
+		</div>
+		<input id="grab1" type="text">
+		<input id="press1" type="button" value="Send">
+		<div id="output1"></div>
+		<form action="/" method="post" id="form">
+			<br>
+			<div>
+				<label for="email">Email:</label>
+				<input id="emailsend" type="email" name="email">
+			</div>
+			<br>
+			<div>
+				<label for="pwd">Password:</label>
+				<input id="pwdsend" type="password" name="password">
+			</div>
+			<br>
+			<input type="submit" value="Submit">
+		</form>
+		<script src="./JS/script.js"></script>
+	</body>
+
+</html>
